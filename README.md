@@ -1,6 +1,8 @@
 # hse_hw3_chromhmm
 
 ### Клеточная линия - Osteobl
+Ссылка на Colab: https://colab.research.google.com/drive/1f1TB2o4cEESY40_c_kqo7qKw6PUv5ely#scrollTo=HkNwxZvT05mT
+
 Размер файлов в папке с выдачей ChromHMM не позволяет загрузить все файлы в репозиторий ==> ссылка на гугл диск с файлами: https://drive.google.com/drive/folders/1IF3de847IJ2EgPuIVl-FPyloG5xCngM2
 
 
