@@ -49,14 +49,14 @@ EP300 | wgEncodeBroadHistoneOsteoP300kat3bAlnRep1.bam
 **Эпигенетический тип** | **Описание** | **Метки** | **Состояние**
 ------------ | ------------- | ------------- | ------------- 
 1 | наиболее часто встречается в TES и RefSeqGene, | H3k36me3 | 
-2 | наиболее часто встречается в в RefSeqGene| H4k20me1, H3k79me2, H3k36me3 | 
-3 | наиболее часто встречается в в RefSeqGene и TES | H3k4me3, H3k4me2, H3k27ac, H3k4me1, H3k79me2, H4k20me1 | 
-4 | | H2az, H3k4me2, H3k27ac, H3k4me1| 
-5 |  | H2az, H3k4me1 | 
-6 |  | H2az, H3k4me3, H3k4me2, H3k27ac, H3k79me2 | возможно, промотор 
+2 | наиболее часто встречается в  RefSeqGene| H4k20me1, H3k79me2, H3k36me3 | 
+3 | наиболее часто встречается в  RefSeqGene и TES | H3k4me3, H3k4me2, H3k27ac, H3k4me1, H3k79me2, H4k20me1 | 
+4 | RefSeqGene и TES| H2az, H3k4me2, H3k27ac, H3k4me1| 
+5 |  | H2az, H3k4me1 | вероятно, promoter
+6 |  | H2az, H3k4me3, H3k4me2, H3k27ac, H3k79me2 | activate promoter 
 7 |  | CTCF | 
-8 |  | - | 
-9 |  | EP300, H3k27me3 | возможно,промотор
+8 | большой процент во всем геноме, покрывает большие участки гена и попадает как в область энхансеров, так и промоторов, присутствует в lamina | - |  repressed heterochromatin
+9 |  | EP300, H3k27me3 | 
 10 | находится в начале гена (chr1) | - | 
 
 
