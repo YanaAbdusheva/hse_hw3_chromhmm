@@ -62,10 +62,11 @@ EP300 | wgEncodeBroadHistoneOsteoP300kat3bAlnRep1.bam
 
 
 ![hhh](https://user-images.githubusercontent.com/93256219/160258436-5654fd84-0b7d-44ca-a1d1-efbac6f5414f.png)
+
 ![ttt](https://user-images.githubusercontent.com/93256219/160258437-420e53eb-4861-4f96-a825-42929b6c9adc.png)
 
 ## Команды
-
+```
 !curl -O https://raw.githubusercontent.com/deepjavalibrary/d2l-java/master/tools/fix-colab-gpu.sh && bash fix-colab-gpu.sh
 !curl -O https://raw.githubusercontent.com/deepjavalibrary/d2l-java/master/tools/colab_build.sh && bash colab_build.sh
 !java --list-modules | grep "jdk.jshell"
@@ -86,3 +87,4 @@ EP300 | wgEncodeBroadHistoneOsteoP300kat3bAlnRep1.bam
 ! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoblControlStdAlnRep1.bam -O Control.bam
 !java -mx5000M -jar /content/ChromHMM/ChromHMM.jar BinarizeBam -b 200  /content/ChromHMM/CHROMSIZES/hg19.txt /content/ cellmarkfiletable.txt   binarizedData
 !java -mx1600m -jar /content/ChromHMM/ChromHMM.jar LearnModel -p 0 binarizedData output_data 10 hg19
+```
