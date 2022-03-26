@@ -48,15 +48,17 @@ EP300 | wgEncodeBroadHistoneOsteoP300kat3bAlnRep1.bam
 ## Таблица
 **Эпигенетический тип** | **Описание** | **Метки** | **Состояние**
 ------------ | ------------- | ------------- | ------------- 
-1 | наиболее часто встречается в TES и RefSeqGene, | H3k36me3 | 
-2 | наиболее часто встречается в  RefSeqGene| H4k20me1, H3k79me2, H3k36me3 | 
-3 | наиболее часто встречается в  RefSeqGene и TES | H3k4me3, H3k4me2, H3k27ac, H3k4me1, H3k79me2, H4k20me1 | 
-4 | RefSeqGene и TES| H2az, H3k4me2, H3k27ac, H3k4me1| 
-5 |  | H2az, H3k4me1 | вероятно, promoter
-6 |  | H2az, H3k4me3, H3k4me2, H3k27ac, H3k79me2 | activate promoter 
-7 |  | CTCF | 
+1 | наиболее часто встречается в TES и RefSeqGene, экзонах | H3k36me3 | Transcribed region
+2 | наиболее часто встречается в  RefSeqGene| H4k20me1, H3k79me2, H3k36me3 | Transcribed region
+3 | наиболее часто встречается в  RefSeqGene и TES | H3k4me3, H3k4me2, H3k27ac, H3k4me1, H3k79me2, H4k20me1 | Weak promoter
+4 | гены, конец транскрипции| H2az, H3k4me2, H3k27ac, H3k4me1| Enhancer/Transcribed region	
+5 | присутствует в lamina | H2az, H3k4me1 | Repressed heterochromatin
+6 | встречается в TES и lamina, попадает на участки промотора| H2az, H3k4me3, H3k4me2, H3k27ac, H3k79me2 | Activate promoter 
+7 | конец транскрипции, lamina, экзоны | CTCF | Heterochromatin
 8 | большой процент во всем геноме, покрывает большие участки гена и попадает как в область энхансеров, так и промоторов, присутствует в lamina | - | Heterochromatin
-9 |  | EP300, H3k27me3 | 
+9 | Конец транскрипции, экзоны,  CpG islands | EP300, H3k27me3 | Transcribed region  
 10 | большой процент во всем геноме и lamina, не попадает на участки промоторов и энхансеров | - | Heterochromatin
+
+
 
 
