@@ -46,7 +46,7 @@ EP300 | wgEncodeBroadHistoneOsteoP300kat3bAlnRep1.bam
 ![22](https://user-images.githubusercontent.com/93256219/160253439-2c0422ec-259d-40b0-bad2-63b0c65c9fd3.png)
 
 ## Таблица
-**Эпигенетический тип** | **Описание** | **Метки** | **Состояние**
+**Состояние** | **Описание** | **Метки** | **Эпигенетический тип**
 ------------ | ------------- | ------------- | ------------- 
 1 | наиболее часто встречается в TES и RefSeqGene, экзонах | H3k36me3 | Transcribed region
 2 | наиболее часто встречается в  RefSeqGene| H4k20me1, H3k79me2, H3k36me3 | Transcribed region
@@ -61,4 +61,28 @@ EP300 | wgEncodeBroadHistoneOsteoP300kat3bAlnRep1.bam
 
 
 
+![hhh](https://user-images.githubusercontent.com/93256219/160258436-5654fd84-0b7d-44ca-a1d1-efbac6f5414f.png)
+![ttt](https://user-images.githubusercontent.com/93256219/160258437-420e53eb-4861-4f96-a825-42929b6c9adc.png)
 
+## Команды
+
+!curl -O https://raw.githubusercontent.com/deepjavalibrary/d2l-java/master/tools/fix-colab-gpu.sh && bash fix-colab-gpu.sh
+!curl -O https://raw.githubusercontent.com/deepjavalibrary/d2l-java/master/tools/colab_build.sh && bash colab_build.sh
+!java --list-modules | grep "jdk.jshell"
+! wget http://compbio.mit.edu/ChromHMM/ChromHMM.zip
+!unzip /content/ChromHMM.zip
+! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoblH2azStdAlnRep1.bam -O H2az.bam
+! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoblH3k27acStdAlnRep1.bam -O H3k27ac.bam
+! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoH3k27me3AlnRep1.bam -O H3k27me3.bam
+! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoblH3k36me3StdAlnRep1.bam -O H3k36me3.bam
+! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoblH3k4me1StdAlnRep1.bam -O H3k4me1.bam
+! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoblH3k4me2StdAlnRep1.bam -O H3k4me2.bam
+! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoH3k04me3AlnRep1.bam -O H3k4me3.bam
+! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoH3k79me2AlnRep1.bam -O H3k79me2.bam
+! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoblH3k9me3StdAlnRep1.bam -O H3k9me3.bam
+! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoH4k20me1AlnRep1.bam -O H4k20me1.bam
+! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoblCtcfStdAlnRep1.bam -O Ctcf.bam
+! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoP300kat3bAlnRep1.bam -O P300kat3b.bam
+! wget http://hgdownload.cse.ucsc.edu/goldenPath/hg19/encodeDCC/wgEncodeBroadHistone/wgEncodeBroadHistoneOsteoblControlStdAlnRep1.bam -O Control.bam
+!java -mx5000M -jar /content/ChromHMM/ChromHMM.jar BinarizeBam -b 200  /content/ChromHMM/CHROMSIZES/hg19.txt /content/ cellmarkfiletable.txt   binarizedData
+!java -mx1600m -jar /content/ChromHMM/ChromHMM.jar LearnModel -p 0 binarizedData output_data 10 hg19
