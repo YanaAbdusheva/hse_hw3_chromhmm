@@ -41,3 +41,9 @@ EP300 | wgEncodeBroadHistoneOsteoP300kat3bAlnRep1.bam
 ![3](https://user-images.githubusercontent.com/93256219/160253323-48fd001c-d466-44a0-a393-04354dccd37b.png)
 
 
+![11](https://user-images.githubusercontent.com/93256219/160253437-16ae4e00-49d7-45ac-a087-ca42a2b68c26.png)
+![22](https://user-images.githubusercontent.com/93256219/160253439-2c0422ec-259d-40b0-bad2-63b0c65c9fd3.png)
+
+
+
+
