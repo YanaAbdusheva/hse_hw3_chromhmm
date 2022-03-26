@@ -45,6 +45,18 @@ EP300 | wgEncodeBroadHistoneOsteoP300kat3bAlnRep1.bam
 ![11](https://user-images.githubusercontent.com/93256219/160253437-16ae4e00-49d7-45ac-a087-ca42a2b68c26.png)
 ![22](https://user-images.githubusercontent.com/93256219/160253439-2c0422ec-259d-40b0-bad2-63b0c65c9fd3.png)
 
-
+## Таблица
+**Эпигенетический тип** | **Описание** | **Метки** | **Состояние**
+------------ | ------------- | ------------- | ------------- 
+1 | наиболее часто встречается в TES и RefSeqGene, | H3k36me3 | 
+2 | наиболее часто встречается в в RefSeqGene| H4k20me1, H3k79me2, H3k36me3 | 
+3 | наиболее часто встречается в в RefSeqGene и TES | H3k4me3, H3k4me2, H3k27ac, H3k4me1, H3k79me2, H4k20me1 | 
+4 | | H2az, H3k4me2, H3k27ac, H3k4me1| 
+5 |  | H2az, H3k4me1 | 
+6 |  | H2az, H3k4me3, H3k4me2, H3k27ac, H3k79me2 | возможно, промотор 
+7 |  | CTCF | 
+8 |  | - | 
+9 |  | EP300, H3k27me3 | возможно,промотор
+10 | находится в начале гена (chr1) | - | 
 
 
