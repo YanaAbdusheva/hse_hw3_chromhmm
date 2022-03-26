@@ -22,3 +22,10 @@ H4k20me1| wgEncodeBroadHistoneOsteoH4k20me1AlnRep1.bam
 CTCF | wgEncodeBroadHistoneOsteoblCtcfStdAlnRep1.bam
 EP300 | wgEncodeBroadHistoneOsteoP300kat3bAlnRep1.bam
 
+## Картинки ChromHMM
+
+![emissions_10](https://user-images.githubusercontent.com/93256219/160252469-3cf1224b-2bda-490c-bb03-7d509fb84e52.png)
+![Osteobl_10_overlap](https://user-images.githubusercontent.com/93256219/160252477-4ba9c3f3-77cf-4d5e-b908-d72fe120b0ae.png)
+![Osteobl_10_RefSeqTES_neighborhood](https://user-images.githubusercontent.com/93256219/160252480-d1bdead3-a37d-4305-bf32-db05b81fa98b.png)
+![Osteobl_10_RefSeqTSS_neighborhood](https://user-images.githubusercontent.com/93256219/160252482-7dbaacb9-d069-4299-b94c-27bce3c36e7c.png)
+![transitions_10](https://user-images.githubusercontent.com/93256219/160252488-4b07a1af-6c48-4ce0-9cc3-354f8912530e.png)
