@@ -33,3 +33,11 @@ EP300 | wgEncodeBroadHistoneOsteoP300kat3bAlnRep1.bam
 ![Osteobl_10_RefSeqTSS_neighborhood](https://user-images.githubusercontent.com/93256219/160252482-7dbaacb9-d069-4299-b94c-27bce3c36e7c.png)
 
 ![transitions_10](https://user-images.githubusercontent.com/93256219/160252488-4b07a1af-6c48-4ce0-9cc3-354f8912530e.png)
+
+##  USCS Genome Browser
+### Chr1
+
+![1](https://user-images.githubusercontent.com/93256219/160253272-b205b6ce-e32b-47a4-9bce-7ec0cfd07e6b.png)
+![2](https://user-images.githubusercontent.com/93256219/160253275-36ee9be0-10ca-4222-9b13-68e0817a9676.png)
+
+
